@@ -12,5 +12,5 @@ def fcopy(filename1: str, filename2: str) -> None:
     with open(f"{filename1}", "rt") as func:
         for line in func:
             to_be_copied.append(line)
-    with open(f"{filename2}", "wt+") as func:
+    with open(f"{filename2}", "wt") as func:
         func.writelines(to_be_copied)
