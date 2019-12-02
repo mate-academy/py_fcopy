@@ -1,5 +1,6 @@
 """This code copies contents from one file to another"""
 
+
 def fcopy(filename1: str, filename2: str) -> None:
     """
     Copy the file on line-by-line basis
