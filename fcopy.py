@@ -7,3 +7,5 @@ def fcopy(filename1: str, filename2: str) -> None:
     file_write = open(filename2, 'w')
     for i in file_read:
         file_write.write(i)
+    file_read.close()
+    file_write.close()
